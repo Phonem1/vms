@@ -12,9 +12,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "config": {
-    "baseurl": "/Users/phone/Desktop/visitor/vmsbootstrap/dist/"
-  },
   "private": true,
   "dependencies": {
     "@angular/common": "^4.0.0",
