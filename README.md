@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1. npm install 
 2. npm run build
-3. edit index.html '''html  <base href="/"> to <base href="./"> '''
+3. edit index.html ```html  <base href="/"> to <base href="./"> ```
 4. npm run electron
 
 
