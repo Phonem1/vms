@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormWizardModule } from 'angular2-wizard';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -12,7 +15,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    NgbModule.forRoot(),
+    FormWizardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
